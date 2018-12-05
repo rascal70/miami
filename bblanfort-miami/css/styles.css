@@ -1,27 +1,40 @@
-body {
-    background-color: #333;
+html {
+    font-size: 10px;
 }
+
+body {
+    background-color: #555;
+}
+
 .container {
-    background-color: #ffffff;
+    background-color: #fff;
     width: 1200px;
     padding: 20px;
     margin: auto;
 }
+
 header {
     background-color: #2a7389;
     margin-bottom: 5px;
-    font-size: 50px;
+    font-size: 8rem;
     line-height: 200px;
     text-align: center;
 }
+
 footer {
     background-color: #2a7389;
     font-size: 18px;
     line-height: 100px;
     text-align: center;
 }
-h1 { text-align: center; }
-p { font-size: 18px; }
+
+h1 {
+    text-align: center;
+}
+
+p {
+    font-size: 1.8rem;
+}
 
 section {
     background-color: #fdffe8;
@@ -33,70 +46,82 @@ section {
 }
 
 div.intro {
-	background-image: url('../img/tip1/sky.png');
+    background-image: url('../img/tip1/sky.png');
     height: 400px;
-	background-size: cover;
+    background-size: cover;
 
     background-color: white;
     min-height: 500px;
     margin: 25px auto;
     padding: 10px;
 }
+
 .mainImg1 {
     width: 36%;
-	margin: 10px 1%;
-	padding: 10px 1%;
-	float: left;
-	margin-right: 10px;
+    margin: 10px 1%;
+    padding: 10px 1%;
+    float: left;
+    margin-right: 10px;
 }
+
 .article {
     width: 56%;
-	margin: 10px 1%;
-	padding: 10px 1%;
-	float: left;
-	margin-right: 10px;
+    margin: 10px 1%;
+    padding: 10px 1%;
+    float: left;
+    margin-right: 10px;
 
     text-align: justify;
 }
 
-.clear { clear: both; }
+.clear {
+    clear: both;
+}
 
 /*-------------------------------------
 | Pinned Navigation
 -------------------------------------*/
+
 div.branding h1 {
-	margin: 0px;
-	text-align: center;
+    margin: 0px;
+    text-align: center;
 }
+
 div.branding nav {
-	text-align: center;
+    text-align: center;
 }
+
 div.branding nav a {
     display: inline-block;
     background-color: #48b8ab;
     padding: 15px;
     color: #000;
     width: 267px;
+    font-size: 2rem;
     text-align: center;
     text-decoration: none;
 }
-div.branding nav a:hover { color: #f2bf8e; }
+
+div.branding nav a:hover {
+    color: #f2bf8e;
+}
 
 body.pinned div.branding {
-	position: fixed;
-	top: 0px;
-	left: 0px;
-	right: 0px;
-	z-index: 900;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 900;
 }
 
 div.hold-the-space {
-	height: 48px;
+    height: 48px;
 }
 
 /*-------------------------------------
 | Sect1 Background
 -------------------------------------*/
+
 .stage1 {
     background-color: white;
     width: 1075px;
@@ -106,265 +131,303 @@ div.hold-the-space {
     overflow: hidden;
     /*outline: 1px solid red;*/
 }
+
 .birds {
     background-image: url('../img/tip1/birds.png');
     height: 359px;
     width: 1075px;
     /*outline: 1px solid red;*/
 }
+
 .sky {
     background-image: url('../img/tip1/sky.png');
     height: 400px;
     width: 1075px;
     /*outline: 1px solid red;*/
 }
+
 .sand {
     background-image: url('../img/tip1/sand.png');
     height: 387px;
     width: 1075px;
     /*outline: 1px solid red;*/
 }
+
 .ocean {
     background-image: url('../img/tip1/ocean.png');
     height: 669px;
     width: 1075px;
     /*outline: 1px solid red;*/
 }
+
 /*-------------------------------------
 | Sect1 background Positioning
 -------------------------------------*/
+
 .stage1 {
     position: relative;
     top: 0px;
     left: 0px;
 }
+
 .birds {
     position: absolute;
     top: 0px;
     left: 0px;
     background-position: 0px 0px
 }
+
 .sky {
     position: absolute;
     top: 0px;
     left: 0px;
 }
+
 .sand {
     position: absolute;
     bottom: 0px;
     left: 0px;
 }
-.ocean{
+
+.ocean {
     position: absolute;
     bottom: 0px;
     left: 0px;
     z-index: 700;
 }
+
 /*-------------------------------------
 | Arrows
 -------------------------------------*/
+
 .arrow {
-	width: 41px;
-	height: 41px;
-	position: absolute;
-	top: 363px;
-	background-position: 0px 0px;
+    width: 41px;
+    height: 41px;
+    position: absolute;
+    top: 363px;
+    background-position: 0px 0px;
 }
+
 .arrow:hover {
-	background-position: 0px -41px;
+    background-position: 0px -41px;
 }
+
 .arrow.left {
-	background-image: url('../img/arrows-left.png');
-	left: 20px;
+    background-image: url('../img/arrows-left.png');
+    left: 20px;
     z-index: 700;
 }
+
 .arrow.right {
-	background-image: url('../img/arrows-right.png');
-	right: 20px;
+    background-image: url('../img/arrows-right.png');
+    right: 20px;
     z-index: 700;
 }
+
 /*-------------------------------------
 | Tip 1
 -------------------------------------*/
+
 /* Beach1 -------------------------------*/
+
 .beach1.ball {
-	background-image: url('../img/tip1/beach1/ball.png');
+    background-image: url('../img/tip1/beach1/ball.png');
 
-	width: 150px;
-	height: 150px;
+    width: 150px;
+    height: 150px;
 
-	position: absolute;
+    position: absolute;
     bottom: 36px;
-	left: 54px;
+    left: 54px;
     z-index: 700;
 }
+
 .beach1.boat {
-	background-image: url('../img/tip1/beach1/boat.png');
+    background-image: url('../img/tip1/beach1/boat.png');
 
-	width: 242px;
-	height: 52px;
+    width: 242px;
+    height: 52px;
 
-	position: absolute;
+    position: absolute;
     top: 354px;
-	right: 1100px;
+    right: 1100px;
 }
+
 .beach1.sun {
-	background-image: url('../img/tip1/beach1/sun.png');
+    background-image: url('../img/tip1/beach1/sun.png');
 
-	width: 326px;
-	height: 300px;
+    width: 326px;
+    height: 300px;
 
-	position: absolute;
-	top: 20px;
-	right: 20px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
     /*z-index: 700;*/
 }
+
 .beach1.chair {
-	background-image: url('../img/tip1/beach1/chair.png');
+    background-image: url('../img/tip1/beach1/chair.png');
 
-	width: 260px;
-	height: 313px;
+    width: 260px;
+    height: 313px;
 
-	position: absolute;
-	bottom: 36px;
-	left: 90px;
+    position: absolute;
+    bottom: 36px;
+    left: 90px;
     z-index: 700;
 }
+
 /* Beach2 -------------------------------*/
+
 .beach2.ball {
-	background-image: url('../img/tip1/beach2/ball.png');
+    background-image: url('../img/tip1/beach2/ball.png');
 
-	width: 150px;
-	height: 150px;
+    width: 150px;
+    height: 150px;
 
-	position: absolute;
-	bottom: 36px;
-	left: 54px;
+    position: absolute;
+    bottom: 36px;
+    left: 54px;
     z-index: 700;
 }
+
 .beach2.boat1 {
-	background-image: url('../img/tip1/beach2/boat1.png');
+    background-image: url('../img/tip1/beach2/boat1.png');
 
-	width: 154px;
-	height: 73px;
+    width: 154px;
+    height: 73px;
 
-	position: absolute;
-	top: 350px;
-	right: 350px;
+    position: absolute;
+    top: 350px;
+    right: 350px;
 }
+
 .beach2.boat2 {
-	background-image: url('../img/tip1/beach2/boat2.png');
+    background-image: url('../img/tip1/beach2/boat2.png');
 
-	width: 154px;
-	height: 98px;
+    width: 154px;
+    height: 98px;
 
-	position: absolute;
-	top: 365px;
-	right: 150px;
+    position: absolute;
+    top: 365px;
+    right: 150px;
     z-index: 700;
 }
+
 .beach2.sun {
-	background-image: url('../img/tip1/beach2/sun.png');
+    background-image: url('../img/tip1/beach2/sun.png');
 
-	width: 326px;
-	height: 300px;
+    width: 326px;
+    height: 300px;
 
-	position: absolute;
-	top: 20px;
-	right: 20px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
     /*z-index: 700;*/
 }
+
 /* Beach3 -------------------------------*/
+
 .beach3.ball {
-	background-image: url('../img/tip1/beach3/ball.png');
+    background-image: url('../img/tip1/beach3/ball.png');
 
-	width: 150px;
-	height: 150px;
+    width: 150px;
+    height: 150px;
 
-	position: absolute;
-	bottom: 36px;
-	left: 54px;
+    position: absolute;
+    bottom: 36px;
+    left: 54px;
     z-index: 700;
 }
+
 .beach3.sun {
-	background-image: url('../img/tip1/beach3/sun.png');
+    background-image: url('../img/tip1/beach3/sun.png');
 
-	width: 326px;
-	height: 300px;
+    width: 326px;
+    height: 300px;
 
-	position: absolute;
-	top: 20px;
-	right: 20px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
     /*z-index: 700;*/
 }
+
 .beach3.boat {
-	background-image: url('../img/tip1/beach3/boat.png');
+    background-image: url('../img/tip1/beach3/boat.png');
 
-	width: 200px;
-	height: 259px;
+    width: 200px;
+    height: 259px;
 
-	position: absolute;
-	top: 152px;
-	right: 340px;
+    position: absolute;
+    top: 152px;
+    right: 340px;
     z-index: 550;
 }
+
 .beach3.paddleman {
-	background-image: url('../img/tip1/beach3/padddleman.png');
+    background-image: url('../img/tip1/beach3/padddleman.png');
 
-	width: 150px;
-	height: 118px;
+    width: 150px;
+    height: 118px;
 
-	position: absolute;
-	top: 350px;
-	right: 150px;
+    position: absolute;
+    top: 350px;
+    right: 150px;
     z-index: 700;
 }
+
 /* Beach4 -------------------------------*/
+
 .beach4.sun {
-	background-image: url('../img/tip1/beach4/sun.png');
+    background-image: url('../img/tip1/beach4/sun.png');
 
-	width: 326px;
-	height: 300px;
+    width: 326px;
+    height: 300px;
 
-	position: absolute;
-	top: 20px;
-	right: 20px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
     /*z-index: 700;*/
 }
+
 .beach4.aircraft {
-	background-image: url('../img/tip1/beach4/aircraft.png');
+    background-image: url('../img/tip1/beach4/aircraft.png');
 
-	width: 217px;
-	height: 77px;
+    width: 217px;
+    height: 77px;
 
-	position: absolute;
-	top: 50px;
-	right: 20px;
+    position: absolute;
+    top: 50px;
+    right: 20px;
 }
+
 .beach4.boat {
-	background-image: url('../img/tip1/beach4/boat.png');
+    background-image: url('../img/tip1/beach4/boat.png');
 
-	width: 240px;
-	height: 129px;
+    width: 240px;
+    height: 129px;
 
-	position: absolute;
-	top: 287px;
-	right: 90px;
+    position: absolute;
+    top: 287px;
+    right: 90px;
 }
+
 .beach4.ball {
-	background-image: url('../img/tip1/beach4/ball.png');
+    background-image: url('../img/tip1/beach4/ball.png');
 
-	width: 150px;
-	height: 150px;
+    width: 150px;
+    height: 150px;
 
-	position: absolute;
-	bottom: 36px;
-	left: 54px;
+    position: absolute;
+    bottom: 36px;
+    left: 54px;
     z-index: 700;
 }
+
 /*-------------------------------------
 | Section 2
 -------------------------------------*/
+
 .polaroid-icon {
     position: relative;
     top: -60px;
@@ -372,6 +435,7 @@ div.hold-the-space {
 
     transition: all 4s;
 }
+
 .polaroid-icon.offstage {
     left: 1200px;
     opacity: 0.50;
@@ -384,6 +448,7 @@ div.hold-the-space {
 
     transition: all 4s;
 }
+
 .miami-title.offstage {
     left: 1200px;
     opacity: 0.50;
@@ -396,6 +461,7 @@ div.hold-the-space {
 
     transition: all 4s;
 }
+
 .polaroid1.offstage {
     left: -1200px;
     opacity: 0.50;
@@ -408,6 +474,7 @@ div.hold-the-space {
 
     transition: all 4s;
 }
+
 .polaroid2.offstage {
     left: -1200px;
     opacity: 0.50;
@@ -420,6 +487,7 @@ div.hold-the-space {
 
     transition: all 4s;
 }
+
 .polaroid3.offstage {
     left: 1200px;
     opacity: 0.50;
@@ -432,6 +500,7 @@ div.hold-the-space {
 
     transition: all 4s;
 }
+
 .polaroid4.offstage {
     left: -1200px;
     opacity: 0.50;
@@ -444,6 +513,7 @@ div.hold-the-space {
 
     transition: all 4s;
 }
+
 .polaroid5.offstage {
     left: -1200px;
     opacity: 0.50;
@@ -456,6 +526,7 @@ div.hold-the-space {
 
     transition: all 4s;
 }
+
 .polaroid6.offstage {
     left: 1200px;
     opacity: 0.50;
@@ -468,6 +539,7 @@ div.hold-the-space {
 
     transition: all 4s;
 }
+
 .polaroid7.offstage {
     left: 1200px;
     opacity: 0.50;
@@ -480,39 +552,36 @@ div.hold-the-space {
 
     transition: all 4s;
 }
+
 .polaroid8.offstage {
     left: -1200px;
     opacity: 0.50;
 }
+
 /*-------------------------------------
 | Section 3 :: Parallax
 -------------------------------------*/
+
 #sect4 {
-    background-image:
-        url('../img/tip3/champagne.png'),
-        url('../img/tip3/bkg-club.jpg');
+    background-image: url('../img/tip3/champagne.png'),
+    url('../img/tip3/bkg-club.jpg');
 
-    background-size:
-        400px auto,
-        cover;
+    background-size: 400px auto,
+    cover;
 
-    background-position:
-        0px 0px,
-        center center;
+    background-position: 0px 0px,
+    center center;
 
-    background-attachment:
-        scroll,
-        fixed;
+    background-attachment: scroll,
+    fixed;
 
     background-repeat: no-repeat;
 }
+
 .stage1.corkboard {
-    background-image:
-        url('../img/tip2/cork-board.png');
+    background-image: url('../img/tip2/cork-board.png');
 
-    background-position:
-        20px 50px;
+    background-position: 20px 50px;
 
     background-repeat: no-repeat;
 }
-
